@@ -1,0 +1,31 @@
+{
+  "name": "Family Chat",
+  "description": "A real-time blackboard for all the family",
+  "keywords": [
+    "node",
+    "express",
+    "feathers",
+    "feathersjs",
+    "chat",
+    "realtime",
+    "mongoDB"
+  ],
+  "website": "http://bzfullstack.com",
+  "success_url": "/",
+  "env": {
+    "FEATHERS_AUTH_SECRET": {
+      "description": "Your secret for encrypting JWT's used with Feather authentication",
+      "required": true,
+      "generator": "secret"
+    }
+  },
+  "formation": [
+    {
+      "quantity": 1,
+      "size": "free",
+      "type": "web"
+    }
+  ],
+  "image": "heroku/nodejs",
+  "addons": []
+}
